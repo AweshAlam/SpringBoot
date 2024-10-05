@@ -7,7 +7,6 @@ import com.spring.rest.model.Employee;
 import com.spring.rest.service.EmployeeService;
 
 @RestController
-@RequestMapping("/")
 public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
